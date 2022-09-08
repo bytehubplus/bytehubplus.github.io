@@ -1,0 +1,6 @@
+[submodule "themes/universal"]
+	path = themes/universal
+	url = https://github.com/devcows/hugo-universal-theme
+[submodule "themes/ace"]
+	path = themes/ace
+	url = https://github.com/vantagedesign/ace-documentation.git
