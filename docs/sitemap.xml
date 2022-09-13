@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>bytehubplus.github.io/</loc>
-    <lastmod>2022-09-13T20:45:16+08:00</lastmod>
+    <loc>http://bytehubplus.github.io/</loc>
+    <lastmod>2022-09-13T22:11:36+08:00</lastmod>
   </url><url>
-    <loc>bytehubplus.github.io/categories/</loc>
+    <loc>http://bytehubplus.github.io/categories/</loc>
   </url><url>
-    <loc>bytehubplus.github.io/tags/</loc>
+    <loc>http://bytehubplus.github.io/tags/</loc>
   </url>
 </urlset>
