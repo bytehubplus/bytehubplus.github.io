@@ -2,3 +2,22 @@ baseURL: bytehubplus.github.io
 languageCode: en-us
 title: Bytehub+ Open Source Commmunity
 theme: ace
+author:
+  Wechat: richzhao
+  email: zhao.zhenhua at gmail
+
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /home
+
+
+params:
+  footer:
+    - title: About
+      content: >
+        Bytehub+ 是社区驱动的开源项目。Bytehub+旨在提供敏感数据的保管、共享、协助开源方案。
+
+enableGitInfo: true
