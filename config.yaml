@@ -11,13 +11,12 @@ menu:
   main:
     - identifier: home
       name: Home
-      url: /home
-
+      url: index
 
 params:
   footer:
     - title: About
       content: >
-        Bytehub+ 是社区驱动的开源项目。Bytehub+旨在提供敏感数据的保管、共享、协助开源方案。
+        Bytehub+ 是社区驱动的、旨在提供敏感数据的保管、共享、协助开源项目。
 
 enableGitInfo: true

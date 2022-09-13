@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Bytehub&#43; Open Source Commmunity</title>
+    <link>bytehubplus.github.io/tags/</link>
+    <description>Recent content in Tags on Bytehub&#43; Open Source Commmunity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>zhao.zhenhua at gmail</managingEditor>
+    <webMaster>zhao.zhenhua at gmail</webMaster><atom:link href="bytehubplus.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
