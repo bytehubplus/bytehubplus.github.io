@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Bytehub&#43; Open Source Commmunity</title>
-    <link>http://bytehubplus.github.io/categories/</link>
+    <link>https://bytehubplus.github.io/categories/</link>
     <description>Recent content in Categories on Bytehub&#43; Open Source Commmunity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <managingEditor>zhao.zhenhua at gmail</managingEditor>
-    <webMaster>zhao.zhenhua at gmail</webMaster><atom:link href="http://bytehubplus.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>zhao.zhenhua at gmail</webMaster><atom:link href="https://bytehubplus.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
