@@ -1,0 +1,10 @@
+{
+  "index": {
+    "title": "Home",
+    "type": "page"
+  },
+  "feature": {
+    "title": "特性",
+    "type": "page"
+  }
+}
