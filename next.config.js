@@ -10,6 +10,7 @@ const withNextra = require('nextra')({
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  distDir: 'docs',
 }
 
 module.exports = withNextra(nextConfig)
