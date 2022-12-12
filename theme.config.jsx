@@ -14,5 +14,11 @@ export default {
   footer: {
     text: `MIT ${new Date().getFullYear()} © Bytehub+ Community`,
   },
+  getNextSeoProps() {
+    return {
+      titleTemplate: '%s',
+    }
+  },
+  titleSuffix: '',
   // ...
 }
