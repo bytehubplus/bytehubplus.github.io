@@ -1,6 +1,6 @@
 # 什么是Bytehub+
 
-Bytehub+致力于创建下一代可信数据协助基础设施！
+Bytehub+致力于创建下一代可信数据协助基础设施！Fusion是Bytehub+是实现这一目标的核心开源项目。
 
 ![架构图](/arch.png) 
 
@@ -18,7 +18,7 @@ Bytehub+致力于创建下一代可信数据协助基础设施！
 
 #### Service Provider
 
-Service Provider提供数据托管服务，向用户提供的数据存储与访问服务，Service Provider不关心数据本身。
+Service Provider提供数据托管服务，向用户提供的数据存储与访问服务，Service Provider不需要关心数据本身。
 
 #### Vault
 
@@ -33,5 +33,16 @@ Vault用来存储用户数据。每个Vault有若干个Controller，Controller�
 多个用户可以组成不同的Hub，Hub内的每个用户有自己的私有数据，存储在自己的Vault内，同时还有公共数据。每个Service Provider都可以存储公共数据，并且使用共识算法同步到不同的Service Provider。
 
 
+## 数据分享
+
+分享数据副本只是分享的一种方式。分享数据的方式还有很多种，特别是涉及敏感数据时，例如使用零知识证明、通过特定的脱敏过程或者经过一个特定算法将数据加工，仅分享计算的结果等等。
+
+在Fusion中，将分享的数据经过Data Factory加工后再分享。而加工的方式则是采用模块化的插件进行，可以根据具体需要开发、部署加工插件进行分析。
+
+![数据分享](/data-sharing.png) 
+
+## 数据协助
+
+在多方协作分享、加工数据时，利用不同的Data Factory对数据进行加工处理，需要的公共数据利用Hub共享，专有数据通过点对点共享。
 
 
