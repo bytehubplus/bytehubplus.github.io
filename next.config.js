@@ -10,7 +10,7 @@ const withNextra = require('nextra')({
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  distDir: 'build',
+  distDir: 'docs',
   images: {
     unoptimized: true,
   },
