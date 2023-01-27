@@ -3,8 +3,13 @@
     "title": "Home",
     "type": "page"
   },
-  "feature": {
-    "title": "特性",
-    "type": "page"
-  }
+  "github": {
+    "title": "Github",
+    "type": "page",
+    "href": "https://github.com/bytehubplus",
+    "newWindows": true
+  },
+  "index": "Introduction",
+  "collaboration": "Collaboration Model",
+  "license": "License"
 }
