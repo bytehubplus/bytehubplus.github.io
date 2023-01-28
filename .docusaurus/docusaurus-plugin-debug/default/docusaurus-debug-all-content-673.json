@@ -146,11 +146,117 @@
   "docusaurus-plugin-content-blog": {
     "default": {
       "blogSidebarTitle": "Recent posts",
-      "blogPosts": [],
-      "blogListPaginated": [],
-      "blogTags": {},
-      "blogTagsListPath": "/blog/tags",
-      "blogTagsPaginated": []
+      "blogPosts": [
+        {
+          "id": "first-blog-post",
+          "metadata": {
+            "permalink": "/blog/first-blog-post",
+            "source": "@site/blog/2019-05-28-first-blog-post.md",
+            "title": "Welcome",
+            "description": "Bytehub+ 社区欢迎你！",
+            "date": "2019-05-28T00:00:00.000Z",
+            "formattedDate": "2019年5月28日",
+            "tags": [
+              {
+                "label": "welcome",
+                "permalink": "/blog/tags/welcome"
+              },
+              {
+                "label": "community",
+                "permalink": "/blog/tags/community"
+              }
+            ],
+            "readingTime": 0.03,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Zhao Zhenhua",
+                "title": "Bytehub+ Founder",
+                "url": "https://github.com/zRich"
+              }
+            ],
+            "frontMatter": {
+              "slug": "first-blog-post",
+              "title": "Welcome",
+              "authors": {
+                "name": "Zhao Zhenhua",
+                "title": "Bytehub+ Founder",
+                "url": "https://github.com/zRich"
+              },
+              "tags": [
+                "welcome",
+                "community"
+              ]
+            }
+          },
+          "content": "Bytehub+ 社区欢迎你！"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "first-blog-post"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 1,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/welcome": {
+          "label": "welcome",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/welcome",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/welcome",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/community": {
+          "label": "community",
+          "items": [
+            "first-blog-post"
+          ],
+          "permalink": "/blog/tags/community",
+          "pages": [
+            {
+              "items": [
+                "first-blog-post"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/community",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {

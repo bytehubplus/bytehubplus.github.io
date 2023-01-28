@@ -72,7 +72,7 @@ export default {
           "items": [
             {
               "label": "Fusion",
-              "to": "/docs/Index"
+              "to": "/docs/index"
             }
           ]
         },

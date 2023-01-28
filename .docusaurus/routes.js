@@ -3,38 +3,33 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'b10'),
+    path: '/blog',
+    component: ComponentCreator('/blog', 'cea'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '18b'),
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', '0ae'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '03e'),
+    path: '/blog/first-blog-post',
+    component: ComponentCreator('/blog/first-blog-post', '78a'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'f9e'),
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', '121'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'fd2'),
+    path: '/blog/tags/community',
+    component: ComponentCreator('/blog/tags/community', 'a8f'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '35a'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'c65'),
+    path: '/blog/tags/welcome',
+    component: ComponentCreator('/blog/tags/welcome', 'a17'),
     exact: true
   },
   {
