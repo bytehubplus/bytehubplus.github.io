@@ -1,0 +1,27 @@
+{
+  "unversionedId": "collaboration",
+  "id": "collaboration",
+  "title": "Collaboration",
+  "description": "数据分享",
+  "source": "@site/docs/collaboration.mdx",
+  "sourceDirName": ".",
+  "slug": "/collaboration",
+  "permalink": "/docs/collaboration",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Collaboration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Instroduction",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "License",
+    "permalink": "/docs/license"
+  }
+}
