@@ -14,16 +14,16 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        多方灵活参与。
+        用户平等、自由、灵活参与网络。使用SSI技术管理身份与资产，用户完全拥有身份与数字资产的控制权。
       </>
     ),
   },
   {
-    title: '自治',
+    title: '可携带',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        身份与数字自治。
+        用户可以将自己的数据托管在其中任何一个节点。
       </>
     ),
   },
@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        兼容区块链。
+        兼容区块链，方便接入区块链生态。
       </>
     ),
   },

@@ -85,7 +85,7 @@ const config = {
             items: [
               {
                 label: 'Fusion',
-                to: '/docs/index',
+                to: '/docs',
               },
             ],
           },
