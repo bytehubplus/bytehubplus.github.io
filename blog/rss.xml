@@ -11,7 +11,7 @@
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://bytehubplus.netlify.app/blog/first-blog-post</link>
-            <guid>first-blog-post</guid>
+            <guid>https://bytehubplus.netlify.app/blog/first-blog-post</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Bytehub+ 社区欢迎你！]]></description>
             <content:encoded><![CDATA[<p>Bytehub+ 社区欢迎你！</p>]]></content:encoded>
